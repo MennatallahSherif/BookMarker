@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div  class=" head" >
+            <h2>Bookmarker</h2>
+        </div>
+
+
+
+        <div class=" body">
+            <div class="contact">
+                <label class="bo"> Bookmark your favorite sites </label> 
+
+                <br>
+                <br>
+                <div class="mb-3">
+                    <label for="siteName"> Site Name </label>
+                    <br>
+                    <input placeholder="BookmarkName" class="form-control my-3" type="text"  id="siteName">
+                    
+                </div>
+                <div class="mb-3">
+                    <label for="siteUrl"> Site URL </label>
+                    <input placeholder="Website URL" class="form-control my-3 mx-auto " type="text" id="siteUrl">
+                    
+                </div>
+                <button onclick="addSite()" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+        <div class="w-75 mx-auto my-5">
+            <table class="table">
+                <thead>
+                    <th>SiteName</th>
+                    <th>visit</th>
+                    <th>Delete</th>
+                  
+                </thead>
+                <tbody id="tableBody">
+                    
+                </tbody>
+    
+            </table>
+        <script src="main.js"></script>
+    </body>
+    </html>

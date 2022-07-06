@@ -1,0 +1,40 @@
+textarea
+{
+    resize: none;
+}
+.head{
+    width: 100%;
+    
+    
+}
+h2{
+    
+     color:  #B2AAAA;
+     padding: 10px;
+     margin-left: 10%;
+     margin-top: 5%;
+     border-bottom: 1px solid #999;
+    
+     
+}
+.body{
+   width: 100%;
+   height: 550px;
+   text-align: center;
+  
+   padding: 5%;
+   
+}
+.contact{
+    
+    font-size: 150% ;
+    height: 360px;
+    background-color: #EEEEEE;
+}
+.bo{
+    font-weight: bold;
+    padding: 10px;
+}
+.table{
+    background-color: #F7F7F7;
+}
